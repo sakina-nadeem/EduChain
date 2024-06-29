@@ -898,3 +898,10 @@
     gap: var(--gap-mini);
   }
 }
+
+.button-parent {
+  width: 404px;
+  flex-wrap: wrap;
+  gap: var(--gap-lg);
+  margin-top: 6rem;
+}

@@ -953,3 +953,34 @@
     gap: var(--gap-5xl);
   }
 }
+
+.depth-5-frame-34 {
+  border-radius: var(--br-xs);
+  border: 1px solid var(--color-silver-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-mini) var(--padding-base) var(--padding-base) var(--padding-8xl);
+  mix-blend-mode: normal;
+  row-gap: 20px;
+  max-width: 100%;
+  margin-top: 4rem;
+  padding: 1rem;
+}
+.training-programs-group {
+  gap: var(--gap-xl);
+  margin-top: 4rem;
+}
+
+.depth-5-frame-42 {
+    padding: 1rem;
+}
+.depth-5-frame-52 {
+ padding: 1rem;
+}
+.depth-5-frame-62 {
+  padding: 1rem;
+}

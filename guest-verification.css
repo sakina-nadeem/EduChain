@@ -63,6 +63,13 @@
   min-width: 48px;
   cursor: pointer;
 }
+
+.home9:hover {
+    text-decoration: underline;
+}
+.institutes1:hover {
+  text-decoration: underline;
+}
 .institutes1 {
   min-width: 82px;
 }
@@ -108,7 +115,7 @@
   cursor: pointer;
   border: 0;
   padding: var(--padding-3xs-5) var(--padding-lgi);
-  background-color: var(--color-aliceblue-500);
+  background-color: white;
   border-radius: var(--br-xs);
   display: flex;
   flex-direction: row;
@@ -116,7 +123,7 @@
   justify-content: flex-start;
 }
 .structure6:hover {
-  background-color: var(--color-lightgray-100);
+  text-decoration: underline;
 }
 .frame-child20 {
   height: 40px;
