@@ -1,0 +1,193 @@
+/* Reset some default styles */
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+  body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+  }
+  
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; /* Center items vertically */
+      padding: 0.6rem;
+  }
+  
+  .nav {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center; /* Center items vertically */
+      padding: 0 1.9rem;
+      width: 60%;
+      font-size: 1rem;
+  }
+  
+  .nav-logo {
+      font-size: 1rem;
+      padding-left: 3rem;
+  }
+  
+  .options {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+  }
+  
+  
+  .options i {
+      font-size: 1.6rem;
+  }
+  .options:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+  
+  .container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    margin-left: 480px;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  label.certificate {
+    align-self: flex-start;
+    margin-left: 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+  
+  .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .upload-btn,
+  .verify-btn {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .upload-btn:hover,
+  .verify-btn:hover {
+    background-color: #0056b3;
+  }
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+  .container {
+      text-align: center;
+  }
+  
+  h1 {
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+  }
+  
+  p {
+      font-size: 1rem;
+      color: #555555;
+      margin-bottom: 30px;
+  }
+  
+  form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+  }
+  
+  label.certificate {
+      align-self: flex-start;
+      margin-left: -10px !important;
+      font-size: 1rem;
+      margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 20px;
+      border: 1px solid #000000;
+      border-radius: 5px;
+      font-size: 1rem;
+  }
+  
+  button {
+      width: 100%;
+      padding: 15px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 20px;
+  }
+  
+  .upload-button {
+      background-color: D1DBE8;
+      color: #000000;
+  }
+  
+  .verify-button {
+      background-color: #007bff;
+  }
+  
+  a
+{
+color: #000000;
+text-decoration: none;
+}

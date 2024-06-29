@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.signup_screen {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start; /* Align items to the start for better layout */
+     /* Reduced gap to fit all content on one page */
+    width: 100%;
+}
+
+.container, .right-container {
+    width: 50%;
+    padding: 2rem; /* Add padding for better spacing */
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 3rem;
+    margin-top: -0.2rem;
+}
+
+.input {
+    margin-top: 0.3rem; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 14rem;
+    margin-top: -2rem;
+}
+
+.inputs {
+    margin-bottom: 0.1rem;
+    text-align: left; 
+    margin-top: -0.8rem;
+}
+
+.inputs h4 {
+    margin-bottom: 0.1rem;
+    font-weight: 500;
+}
+
+.inputs input[type="email"], 
+.inputs input[type="password"], 
+.inputs input[type="username"], 
+.inputs input[type="contact"], 
+.inputs input[type="age"] {
+    padding: 0.4rem;
+    width: 55%;
+    color: #5a6064;
+    background-color: #e1e9f0;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 0.8rem;
+    outline: none;
+}
+
+.inputs select {
+    color: #74797c;
+    background-color: #e1e9f0;
+    padding: 0.4rem;
+    width: 55%;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 0.8rem;
+    outline: none;
+}
+
+.get-started {
+    background: #1B84F2;
+    color: white;
+    outline: none; 
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    width: 38%;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.get-started:hover {
+    background-color: #155f9f;
+    transform: scale(1.05);
+}
+
+.btn {
+    background: #d0d2d4;
+    color: #000;
+    font-weight: 700;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    width: 20%; /* Adjust width to fit side by side */
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    box-sizing: border-box;
+    margin: 0.1rem;
+    margin-top: -1.3rem;
+}
+
+.btn:hover {
+    background-color: #bac5cf;
+    transform: scale(1.05);
+}
+
+/* .buttons {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.6rem; 
+    margin-right: 5rem;
+}
+
+.box {
+    height: 11rem;
+    border: 0.5px solid #C4C8CE;
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    flex: 1 1 calc(50% - 1rem); /* Adjust width of boxes */
+    box-sizing: border-box;
+}
+
+.box i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.box h3 {
+    margin: 0.5rem 0 0.3rem;
+    font-size: 1.2rem;
+}
+
+.box p {
+    margin: 0;
+    font-size: 1rem;
+    color: #74797c;
+}

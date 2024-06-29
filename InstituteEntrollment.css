@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 1.9rem;
+    width: 60%;
+    font-size: 1rem;
+}
+
+.nav-logo {
+    font-size: 1.3rem;
+    padding-left: 3rem;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.options i {
+    font-size: 1.6rem;
+}
+
+.options img {
+    height: 2.6rem; 
+    width: 2.6rem;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto; 
+    border: 2.3px solid black;
+}
+
+.options:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container {
+    padding: 2rem;
+    margin: 5rem;
+    margin-top: -1rem;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.heading h1 {
+    font-size: 2.7rem;
+}
+
+.add-students-btn {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.add-students-btn:hover {
+    background-color: #0056b3;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.search-bar input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ddd;
+    width: 30%;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: #000;
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid transparent;
+}
+
+.tabs a.active {
+    border-bottom: 3px solid #7d63d8;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: left;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+.status {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+
+.status.pending {
+    background-color: #ffecb3;
+    color: #ff9800;
+}
+
+.status.issued {
+    background-color: #c8e6c9;
+    color: #4caf50;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions a {
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 1rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

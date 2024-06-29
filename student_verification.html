@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="student_verification.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-logo">
+            <h2>EduChain</h2>
+        </div>
+        <div class="nav">
+            <a href="/dashboard" class="options">Dashboard</a>
+            <a href="student_course.html" class="options">Course</a>
+            <a href="course.html" class="options">Certificate</a>
+            <a href="student_verification.html" class="options">Verification</a>
+            <a href="student_profile.html" class="options">Edit Profile</a>
+            <a href="/logout" class="options"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+            <a href="/profile" class="options"><img src="images/profile-image.jpg" alt="Profile Image" class="profile-image"></a>        
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h1>Verify your documents</h1>
+        <p>for students and guests</p>
+        <form>
+            <label class="certificate" for="certificate-id">Certificate Id</label>
+            <input type="text" id="certificate-id" name="certificate-id" placeholder="Enter your Certificate Id">
+            <button type="button" class="upload-button">Upload your document</button>
+            <button type="submit" style="color: aliceblue;" class="verify-button">Verify</button>
+        </form>
+    </div>

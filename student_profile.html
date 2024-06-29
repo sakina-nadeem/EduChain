@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="student_profile.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-logo">
+            <h2>EduChain</h2>
+        </div>
+        <div class="nav">
+            <a href="/dashboard" class="options">Dashboard</a>
+            <a href="student_course.html" class="options">Course</a>
+            <a href="course.html" class="options">Certificate</a>
+            <a href="student_verification.html" class="options">Verification</a>
+            <a href="student_profile.html" class="options">Edit Profile</a>
+            <a href="/logout" class="options"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+            <a href="/profile" class="options"><img src="images/profile-image.jpg" alt="Profile Image" class="profile-image"></a>           
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h1>Student Profile</h1>
+        <div class="profile-card">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="profile-info">
+                <h2>Umer Muhammed</h2>
+                <p style="color: rgb(127, 127, 127);">id:98750493247843</p>
+            </div>
+            <img src="qr_code_barcode.jpg" alt="QR Code" class="qr-code">
+        </div>
+        
+        <form>
+            <h2>Personal information</h2>
+            <label for="preferred-name">Preferred Name</label>
+            <input type="text" id="preferred-name" name="preferred-name" value=" ">
+            
+            <label for="pronouns">Pronouns</label>
+            <input type="text" id="pronouns" name="pronouns" value=" ">
+            
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" value=" ">
+            
+            <label for="bio">Bio</label>
+            <textarea id="bio" name="bio"> </textarea>
+            
+            <h2>Education</h2>
+            <label for="school">School</label>
+            <input type="text" id="school" name="school" value=" ">
+            
+            <label for="major">Major</label>
+            <input type="text" id="major" name="major" value="">
+            
+            <label for="starting-year">Starting Year</label>
+            <input type="text" id="starting-year" name="starting-year" value="">
+            
+            <label for="graduation-year">Graduation Year</label>
+            <input type="text" id="graduation-year" name="graduation-year" value="">
+            
+            <h2>Links</h2>
+            <label for="portfolio">Portfolio</label>
+            <input type="text" id="portfolio" name="portfolio" value="">
+            
+            <label for="linkedin">LinkedIn</label>
+            <input type="text" id="linkedin" name="linkedin" value="">
+            
+            <label for="github">GitHub</label>
+            <input type="text" id="github" name="github" value="">
+            
+            <button type="submit" class="save-button">Save</button>
+        </form>
+    </div>
+    </body>

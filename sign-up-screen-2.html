@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./sign-up-screen-2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bakbak One:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="sign-up-screen-2">
+      <div class="main-content-wrapper">
+        <div class="main-content">
+          <a class="login2">Login</a>
+          <div class="security-features-container">
+            <h1 class="security-features1">Security Features</h1>
+          </div>
+        </div>
+      </div>
+      <section class="registration-form-fields-parent">
+        <div class="registration-form-fields">
+          <div class="form-field-labels">
+            <b class="email3">Email</b>
+          </div>
+          <div class="depth-8-frame-044">
+            <input
+              class="email-or-username1"
+              placeholder="Email or Username"
+              type="text"
+            />
+          </div>
+          <div class="form-field-labels1">
+            <b class="password1">Password</b>
+          </div>
+          <div class="depth-8-frame-045">
+            <input
+              class="first-last-name1"
+              placeholder="first last name"
+              type="text"
+            />
+          </div>
+          <div class="form-field-labels2">
+            <b class="role1">Role</b>
+          </div>
+          <div class="depth-8-frame-0-parent8">
+            <div class="depth-8-frame-046">
+              <div class="select-your-role1">Select your role</div>
+              <div class="mingcutedown-line-wrapper">
+                <img
+                  class="mingcutedown-line-icon1"
+                  alt=""
+                  src="./public/mingcutedownline1@2x.png"
+                  id="mingcutedownLineIcon"
+                />
+              </div>
+            </div>
+            <div class="depth-5-frame-0-group">
+              <button class="depth-5-frame-09">
+                <div class="get-started1">Get started</div>
+              </button>
+              <div class="user-type-selection">
+                <div class="user-type-selection-child"></div>
+                <div class="student-wrapper">
+                  <div class="student" id="studentText">Student</div>
+                </div>
+                <div class="frame-parent53">
+                  <div
+                    class="organization-type-fields-parent"
+                    id="groupContainer"
+                  >
+                    <div class="organization-type-fields">
+                      <input
+                        class="institute-field"
+                        placeholder="Institute"
+                        type="text"
+                      />
+
+                      <div class="organization-type-fields-child"></div>
+                    </div>
+                    <div class="line-div"></div>
+                  </div>
+                  <div class="line-parent" id="groupContainer1">
+                    <div class="frame-child8"></div>
+                    <input
+                      class="orginization"
+                      placeholder="Orginization"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="security-badges-container-wrapper">
+          <div class="security-badges-container">
+            <div class="badge-icons">
+              <div class="depth-5-frame-37">
+                <img
+                  class="carbonmanage-protection-icon3"
+                  loading="lazy"
+                  alt=""
+                  src="./public/carbonmanageprotection.svg"
+                />
+
+                <div class="identity-verification-icon">
+                  <div class="identity-verified3">Identity Verified</div>
+                </div>
+                <div class="verified-user-icon">
+                  <div class="verified-user-information3">
+                    Verified User information
+                  </div>
+                </div>
+              </div>
+              <div class="depth-5-frame-54">
+                <img
+                  class="carbonmanage-protection-icon4"
+                  loading="lazy"
+                  alt=""
+                  src="./public/carbonmanageprotection.svg"
+                />
+
+                <div class="identity-verified-container">
+                  <div class="identity-verified4">Identity Verified</div>
+                </div>
+                <div class="verified-user-information-container">
+                  <div class="verified-user-information4">
+                    Verified User information
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="depth-5-frame-45">
+              <img
+                class="carbonmanage-protection-icon5"
+                loading="lazy"
+                alt=""
+                src="./public/carbonmanageprotection.svg"
+              />
+
+              <div class="badge-label-pair">
+                <div class="identity-verified5">Identity Verified</div>
+              </div>
+              <div class="badge-label-pair1">
+                <div class="verified-user-information5">
+                  Verified User information
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="alternative-login-container-parent">
+        <div class="alternative-login-container">
+          <b class="or1">OR</b>
+        </div>
+        <div class="depth-5-frame-2-parent">
+          <div class="depth-5-frame-25">
+            <b class="signup1">Signup</b>
+          </div>
+          <button class="depth-5-frame-113" id="depth5Frame1">
+            <b class="log-in-as1">log in as a Guest</b>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var mingcutedownLineIcon = document.getElementById("mingcutedownLineIcon");
+      if (mingcutedownLineIcon) {
+        mingcutedownLineIcon.addEventListener("click", function (e) {
+          window.location.href = "./sign-up-screen.html";
+        });
+      }
+      
+      var studentText = document.getElementById("studentText");
+      if (studentText) {
+        studentText.addEventListener("click", function (e) {
+          window.location.href = "./sign-up-screen2.html";
+        });
+      }
+      
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./sign-up-screen3.html";
+        });
+      }
+      
+      var groupContainer1 = document.getElementById("groupContainer1");
+      if (groupContainer1) {
+        groupContainer1.addEventListener("click", function (e) {
+          // Please sync "sign up screen" to the project
+        });
+      }
+      
+      var depth5Frame1 = document.getElementById("depth5Frame1");
+      if (depth5Frame1) {
+        depth5Frame1.addEventListener("click", function (e) {
+          window.location.href = "./guest.html";
+        });
+      }
+      </script>
+  </body>
+</html>
